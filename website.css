@@ -1,0 +1,136 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+
+    background-image: url(https://i.pinimg.com/originals/fa/77/09/fa7709baf361b6986e4b199b6dbfff22.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #333;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+}
+
+nav {
+    background-color: #8BC34A; /* Light Green */
+    overflow: hidden;
+}
+
+nav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: blue;
+    transform-style: underline;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: #8BC34A; /* Light Green */
+    font-family: inherit;
+    margin: 0;
+}
+
+.nav-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.nav-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown:hover .nav-content {
+    display: block;
+}
+
+nav a:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+#welcome {
+    font-size: 350%;
+    text-align: center;
+    font-family: sans-serif;
+    -webkit-text-stroke: 1px black;
+    color:white;
+}
+
+.phone {
+    color:#555;
+    font-size: 11px;
+
+    position:absolute;
+    top: 0.5%;
+    right: 71%;
+
+    cursor: pointer;
+}
+
+#contact {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    
+    padding: 14px 16px;
+    text-decoration: none;
+    margin-bottom: -3%;
+    
+    position: absolute;
+    bottom: 98.25%;
+    left: 13.8%
+}
+
+#slogan {
+    font-size: 200%;
+    text-align: center;
+    font-family: sans-serif;
+    -webkit-text-stroke: 0.8px black;
+    color:white;
+}
+
+.grass {
+    border: 0px;
+    width: 100%;
+    height:30%;
+    overflow: hidden;
+    display: flex;
+}
+
+img {
+    max-width: inherit;
+    max-height: inherit;
+    height: inherit;
+    width: inherit;
+
+    margin-bottom: -18.3%;
+}
